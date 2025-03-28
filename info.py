@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8100266649:AAEcHvxry0ci3SMR-HXC9JyyJIQNhpe
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/Aij.jpg https://envs.sh/AiT.jpg https://envs.sh/AiS.jpg https://envs.sh/Aib.jpg https://envs.sh/AeV.jpg https://envs.sh/Aec.jpg https://envs.sh/Aen.jpg https://i.ibb.co/yFfGCkTJ/photo-2025-03-21-15-00-31-7484278017074659340.jpg https://i.ibb.co/bMLqW9TV/photo-2025-03-21-15-18-10-7484283282704564240.jpg https://i.ibb.co/ycwcSRH7/photo-2025-03-21-15-17-51-7484283218280054800.jpg https://i.ibb.co/nHfpHCf/photo-2025-03-21-15-17-29-7484283192510251020.jpg https://i.ibb.co/6JyfW4Bk/photo-2025-03-21-15-17-29-7484283158150512676.jpg')).split()
 
 
 # Admins & Users
@@ -59,7 +59,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vefoki5679:dunfmDAv1FyAOWSR@cluster0.fyym1gi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutoF')
 
