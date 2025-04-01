@@ -107,7 +107,7 @@ SPELL_CHECK_REPLY = bool(environ.get("SPELL_CHECK_REPLY", True))
 MELCOW_NEW_USERS = bool(environ.get('MELCOW_NEW_USERS', True))
 PROTECT_CONTENT = bool(environ.get('PROTECT_CONTENT', False))
 PUBLIC_FILE_STORE = bool(environ.get('PUBLIC_FILE_STORE', True))
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
@@ -136,7 +136,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', '🎃Hellow🏝')
-CUSTOM_FILE_CAPTION = """<b>🎃File Name🏝<a 🎃File Name🏝 href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a> 
+CUSTOM_FILE_CAPTION = """<b>🎃File Name🏝<a  href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a> 
 
 ♻️ sɪᴢᴇ : <a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a> 
 
