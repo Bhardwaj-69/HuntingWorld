@@ -87,7 +87,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/vjupdates2/3)</code>
+<code>[Button Text](buttonurl:https://t.me/MovieWalaChat)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -163,10 +163,10 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
     SEC_STATUS_TXT = """<b>★-Tᴏᴛᴀʟ Usᴇʀs⚜: <code>{}</code>
-★-Tᴏᴛᴀʟ Cʜᴀᴛs🤞: <code>{}</code>
-★-Tᴏᴛᴀʟ Fɪʟᴇs🍁: <code>{}</code>
-★-Usᴇᴅ Sᴛᴏʀᴀɢᴇ💸: <code>{} MB</code>
-★-Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ♻: <code>{} MB</code></b>"""
+-★-🤞Tᴏᴛᴀʟ Cʜᴀᴛs🤞: <code>{}</code>
+-★-🍁Tᴏᴛᴀʟ Fɪʟᴇs🍁: <code>{}</code>
+-★-💸Usᴇᴅ Sᴛᴏʀᴀɢᴇ💸: <code>{} MB</code>
+-★-♻Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ♻: <code>{} MB</code></b>"""
     
     STATUS_TXT = """<b>Total Files From All DBs: <code>{}</code>
 
@@ -199,7 +199,7 @@ Nᴀᴍᴇ📡 - {}"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ🎃 {},
 ♨This is not Your Request ❗,
-ʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...🤞"""
+😭ʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...🤞"""
 
     OLD_ALRT_TXT = """ʜᴇʏ 🏴‍☠️{},
 ❗You are Using Old Request😒, 
@@ -222,14 +222,16 @@ Did you mean This🏝"""
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
-    I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
+    I_CUD_NT = """❗ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ⚠ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
 
     MVE_NT_FND = """❗Movie Not Found in DataBase💢..."""
 
     TOP_ALRT_MSG = """❗Checking for Movie in DataBase.♻..."""
 
-    MELCOW_ENG = """<b>🌻Hyyy Dear {} 🌻, & your WelCome Tᴏ {} Group 🏝</b>"""
+    MELCOW_ENG = """<b>🌻Hyyy Dear {} 🌻, &
+
+           your WelCome Tᴏ {} Group 🏝</b>"""
 
     SHORTLINK_INFO = """
 
@@ -475,11 +477,11 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b>💥Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ♻ !
 
-📅 Dᴀᴛᴇ : <code>{}</code>
-⏰ Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
+🌟 Dᴀᴛᴇ : <code>{}</code>
+🔆 Tɪᴍᴇ : <code>{}</code>
+✨ Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝🎃🏝"""
