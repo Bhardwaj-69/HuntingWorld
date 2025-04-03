@@ -2772,7 +2772,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-            InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            InlineKeyboardButton("🔆⎈𝙍𝙚𝙦𝙪𝙨𝙩 𝙩𝙤 𝘾𝙖𝙥𝙩𝙖𝙞𝙣 𝙎𝙥𝙖𝙧𝙧𝙤𝙬⚓️🏴‍☠️", url=f"https://t.me/+mUL6IM7JICw1Njc1")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2784,7 +2784,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-            InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            InlineKeyboardButton("🔆⎈𝙍𝙚𝙦𝙪𝙨𝙩 𝙩𝙤 𝘾𝙖𝙥𝙩𝙖𝙞𝙣 𝙎𝙥𝙖𝙧𝙧𝙤𝙬⚓️🏴‍☠️", url=f"https://t.me/+mUL6IM7JICw1Njc1")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2797,7 +2797,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
     SPELL_CHECK[mv_id] = movielist
     if AI_SPELL_CHECK == True and vj_search == True:
         vj_search_new = False
-        vj_ai_msg = await reply_msg.edit_text("<b><i>I Am Trying To Find Your Movie With Your Wrong Spelling.</i></b>")
+        vj_ai_msg = await reply_msg.edit_text("<b><i>Wrong Spalling ⭕ But Pirate ⎈ in Search for Loot💀</i></b>")
         movienamelist = []
         movienamelist += [movie.get('title') for movie in movies]
         for techvj in movienamelist:
@@ -2810,7 +2810,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
                 break
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-            InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            InlineKeyboardButton("🔆⎈𝙍𝙚𝙦𝙪𝙨𝙩 𝙩𝙤 𝘾𝙖𝙥𝙩𝙖𝙞𝙣 𝙎𝙥𝙖𝙧𝙧𝙤𝙬⚓️🏴‍☠️", url=f"https://t.me/+mUL6IM7JICw1Njc1")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
