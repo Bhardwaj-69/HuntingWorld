@@ -3,15 +3,23 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 🎃,</blockquote>
+    START_TXT = """<b><blockquote>⎈ʜᴇʟʟᴏ {} 🎃,
     
-<blockquote>🌟Mʏ Nᴀᴍᴇ Is   <a href=https://t.me/{}>{}</a></blockquote>
+⎈ Myself  <a href=https://t.me/{}>{}</a></blockquote>
 
-🍁 I am POWERFUL   Auto-Filter B0t,🤞
+━━━━━━━━━━━━━━━━━━━
 
-👻 I can Provide MOVIES & WEB SERIES.♨️
+<blockquote>💀Now you are in ⎈  𝓟𝓘𝓡𝓐𝓣𝓔𝓢   𝓗𝓤𝓝𝓣𝓘𝓝𝓖   𝓩𝓸𝓷𝓮,⚓</blockquote>
 
-💥 Its Easy to use Me. Just Add me🤤 to Your GROUP & MAKE me ADMIN.♻️</b>"""
+⚓️𝐋𝐞𝐭 𝐢 𝐰𝐢𝐥𝐥 𝐓𝐞𝐚𝐜𝐡 𝐲𝐨𝐮 𝐇𝐨𝐰 𝐭𝐨 𝗛𝘂𝗻𝘁 𝓜𝓸𝓿𝓲𝓮𝓼 & 𝓢𝓮𝓻𝓲𝓮𝓼🏴‍☠️
+
+🏴‍☠️𝙹𝚞𝚜𝚝 𝚜𝚎𝚗𝚍 𝚖𝚎 𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜 𝙽𝚊𝚖𝚎 𝚗𝚍 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝙳𝚎𝚎𝚙-𝙳𝚒𝚎 𝚒𝚗 𝙿𝚒𝚛𝚊𝚌𝚢💀
+
+━━━━━━━━━━━━━━━━━━━
+
+<blockquote>💥🅝︎🅞︎🅣︎🅔︎.❗️ ℙ𝕚𝕣𝕒𝕔𝕪 𝕚𝕤 ℂ𝕣𝕚𝕞𝕖.😳
+
+-  ⎈ 𝓪𝓷𝓭 𝓟𝓲𝓻𝓪𝓽𝓮𝓼⚓️ 𝓪𝓻𝓮 𝓑𝓸𝓻𝓷 𝓽𝓸 𝓕**𝓚 𝓽𝓱𝓮 𝓛𝓪𝔀𝓼😎</blockquote></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}🎃, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -23,10 +31,10 @@ class script(object):
 
 💥 Its Easy to use Me. Just Add me🤤 to Your GROUP & MAKE me ADMIN.♻️</b>"""
     
-    HELP_TXT = """<b>ʜᴇʟʟᴏ🎃 {}
-     🔆ᴍʏ ғᴇᴀᴛᴜʀᴇs♨.</b>"""
+    HELP_TXT = """<b>ʜᴇʟʟᴏ💀 {}
+     🔆ᴍʏ ғᴇᴀᴛᴜʀᴇs🏴‍☠️."""
 
-    ABOUT_TXT = """<b><blockquote>⍟───[ 🤞About Me⚡ ]───⍟</blockquote>
+    ABOUT_TXT = """<b><blockquote>⎈───[ ⎈About Me⚓ ]───⎈</blockquote>
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
@@ -162,11 +170,11 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    SEC_STATUS_TXT = """<b>★-Tᴏᴛᴀʟ Usᴇʀs⚜: <code>{}</code>
--★-🤞Tᴏᴛᴀʟ Cʜᴀᴛs🤞: <code>{}</code>
--★-🍁Tᴏᴛᴀʟ Fɪʟᴇs🍁: <code>{}</code>
--★-💸Usᴇᴅ Sᴛᴏʀᴀɢᴇ💸: <code>{} MB</code>
--★-♻Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ♻: <code>{} MB</code></b>"""
+    SEC_STATUS_TXT = """<b>-★-Tᴏᴛᴀʟ Usᴇʀs🧿: <code>{}</code>
+-★-💀Tᴏᴛᴀʟ Cʜᴀᴛs💀: <code>{}</code>
+-★-⎈Tᴏᴛᴀʟ Fɪʟᴇs⎈: <code>{}</code>
+-★-🏴‍☠️Usᴇᴅ Sᴛᴏʀᴀɢᴇ🏴‍☠️: <code>{} MB</code>
+-★-⚓Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ⚓: <code>{} MB</code></b>"""
     
     STATUS_TXT = """<b>Total Files From All DBs: <code>{}</code>
 
@@ -188,50 +196,52 @@ OTHER DB :-
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
-    LOG_TEXT_G = """#NewGroup🌟
-Gʀᴏᴜᴘ🏝 = {}(<code>{}</code>)
+    LOG_TEXT_G = """⎈#NewGroup🌟
+Gʀᴏᴜᴘ⎈ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs🏴‍☠⚡ = <code>{}</code>
-Aᴅᴅᴇᴅ Bʏ🏴‍☠️ - {}"""
+⎈Aᴅᴅᴇᴅ Bʏ🏴‍☠️ - {}"""
 
-    LOG_TEXT_P = """#NewUser⚡
-ID➡ - <code>{}</code>
-Nᴀᴍᴇ📡 - {}"""
+    LOG_TEXT_P = """⎈#NewUser⚡
+⎈ID - <code>{}</code>
+⎈Nᴀᴍᴇ - {}"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ🎃 {},
-♨This is not Your Request ❗,
-😭ʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...🤞"""
+⎈Dont Pirate on Others Request❗,
+⚓Be a Pirate⎈ nd Request Your Loot💀"""
 
     OLD_ALRT_TXT = """ʜᴇʏ 🏴‍☠️{},
-❗You are Using Old Request😒, 
-🌻Please Send Request Again.♻."""
+❗You are Using Old Loot😒, 
+⎈Please Send Request Again.⚓."""
 
-    CUDNT_FND = """ɪ Coulden't Find🙄 anything Like {}
-Did you mean This🏝"""
+    CUDNT_FND = """⎈I Coulden't Find🙄 anything Like {}
+Did you mean This⎈"""
 
-    I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
+    I_CUDNT = """<b>⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🍁 {} 😕
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
+⎈do Google and give me Adject Name of you Movie🕷
 
-ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+♠send Movies Like This.!🔆
+🎃Ex.::-- : Animal or Animal 2023 or Animal Hin.  🕸
 
-ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted En
+♣send WebSeries Like This.!💢
+🎃Ex.::--: From S01 or From S01E04 or Stranger Things S03E06
 
-ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+⭕🚫 Dont ➠ ':(!,./) 0nly name of Content that you want.🗝
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+<blockquote>❗💢If you Still not Find it Then click billow👇 🔆⎈𝙍𝙚𝙦𝙪𝙨𝙩 𝙩𝙤 𝘾𝙖𝙥𝙩𝙖𝙞𝙣 𝙎𝙥𝙖𝙧𝙧𝙤𝙬⚓️🏴‍☠️ 
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+🎃we will Upload it As Soon as Possible🕷</b></blockquote>"""
 
-    I_CUD_NT = """❗ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ⚠ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
+    I_CUD_NT = """❗⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🍁 {}.
+⚡Check Spalling or Requst to ⎈Captain Jack Sparrow🕷"""
 
-    MVE_NT_FND = """❗Movie Not Found in DataBase💢..."""
+    MVE_NT_FND = """❗Movie Not Found in Piracy World💢..."""
 
-    TOP_ALRT_MSG = """❗Checking for Movie in DataBase.♻..."""
+    TOP_ALRT_MSG = """❗Checking for Movie in Piracy World .♻..."""
 
-    MELCOW_ENG = """<b>🌻Hyyy Dear {} 🌻, &
+    MELCOW_ENG = """<b>⎈ᕼYYY ᗪᗴᗩᖇ {} 🔆, &
 
-           your WelCome Tᴏ {} Group 🏝</b>"""
+           ⎈🏴‍☠️𝔂𝓸𝓾𝓻 𝓦𝓮𝓵𝓒𝓸𝓶𝓮 𝓣ᴏ {}  𝖺𝗌 𝖺 𝗇𝖾𝗐 𝓟𝓲𝓻𝓪𝓽𝓮.⎈⚓️</b>"""
 
     SHORTLINK_INFO = """
 
@@ -250,13 +260,13 @@ after ❗5❗ minuts💢  This Message will be AutoMaticly Deleted.💢
 🫣 ♻For Movie Join First🌻 Then Click On Try Again Button 😎"""
 
     NORSLTS = """ 
-★-#𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀-★
+⎈-★-#𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀-★-⎈
 
-𝗜𝗗 <b>: {}</b>
+⚓𝗜𝗗 <b>: {}</b>
 
-𝗡𝗮𝗺𝗲 <b>: {}</b>
+🎃𝗡𝗮𝗺𝗲 <b>: {}</b>
 
-𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
+🏴‍☠️𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
@@ -277,7 +287,7 @@ IMDb Data:
 🎛 Countries : <code>{countries}</code>
 
 
-⚡Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
+⚡Result in: {remaining_seconds} <i>seconds</i> 🔥
 
 Requested by🔆 : {message.from_user.mention}</b>"""
     
