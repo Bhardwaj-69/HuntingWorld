@@ -13,11 +13,11 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '27901232'))
 API_HASH = environ.get('API_HASH', 'c3570337b124e4c1d43c9b1ff557ee67')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8100266649:AAEcHvxry0ci3SMR-HXC9JyyJIQNhpeOlkU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7984880417:AAHeJaBygHvxrZ0oyxCXoLBLbcCqU12BvlQ")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://i.ibb.co/yFfGCkTJ/photo-2025-03-21-15-00-31-7484278017074659340.jpg https://i.ibb.co/bMLqW9TV/photo-2025-03-21-15-18-10-7484283282704564240.jpg https://i.ibb.co/ycwcSRH7/photo-2025-03-21-15-17-51-7484283218280054800.jpg https://i.ibb.co/nHfpHCf/photo-2025-03-21-15-17-29-7484283192510251020.jpg https://i.ibb.co/6JyfW4Bk/photo-2025-03-21-15-17-29-7484283158150512676.jpg')).split()
+PICS = (environ.get('PICS', 'https://i.ibb.co/CDMWLRp/file-951.jpg https://i.ibb.co/21rgLPf5/file-949.jpg https://i.ibb.co/HD8J5Pr3/file-948.jpg https://i.ibb.co/RGTxwNGX/file-950.jpg https://i.ibb.co/fVqJZvSk/file-952.jpg')).split()
 
 
 # Admins & Users
@@ -26,7 +26,7 @@ auth_users = [int(user) if id_pattern.search(user) else user for user in environ
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002623209589'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002479013444'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002506258029').split()]  # For Multiple Id Use One Space Between Each.
@@ -59,9 +59,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vefoki5679:dunfmDAv1FyAOWSR@cluster0.fyym1gi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cetih70677:kFKr3vlI336ca1h1@cluster0.qykp0tu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutoF')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'PiratesHunts')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
@@ -135,12 +135,12 @@ TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Cha
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', '🎃Hellow🏝')
-CUSTOM_FILE_CAPTION = """<b>🎃File Name🏝<a  href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a> 
+MSG_ALRT = environ.get('MSG_ALRT', '🎃Hellow⎈')
+CUSTOM_FILE_CAPTION = """<b>🎃File Name::--⎈<a  href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a> 
 
 ♻️ sɪᴢᴇ : <a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a> 
 
-<blockquote>🌟Join us🍁:-- @LarvaLinks🏝</blockquote></b>"""
+<blockquote>⎈Join us🍁:-- @LarvaLinks🏝</blockquote></b>"""
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
