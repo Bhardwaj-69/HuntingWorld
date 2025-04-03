@@ -61,7 +61,7 @@ class script(object):
 👨‍💻 Cᴏᴍᴍᴀɴᴅ : /clone</b>"""
 
     SUBSCRIPTION_TXT = """
-<b>Referre Your Link🔗 ᴛᴏ anyone who can Start the Bot Just For You🌻 amd Get FREE Premium 👑 after  {}
+<b>Referre Your Link🔗 ᴛᴏ anyone who can Start the Bot Just For You🌻 amd Get FREE Premium 👑 For  {}
 
 RefeRal Link 🔗- https://telegram.me/{}?start=VJ-{}
 
